@@ -460,10 +460,10 @@ function closeGiftModal() {
 
 /* ─── SPECIAL BOX 3: LOVE & BIRTHDAY LETTER (TYPEWRITER ANIMATION) ─── */
 const LETTER_SECTIONS = [
+
   {
     id: 'letter-headline-el',
-    text: text: "Happy Birthday, Navi! ❤️🎂" 
-     text: "Happy Birthday once again, Navi! Lots of love from your brother. ❤️🎉"
+    text: "Happy Birthday, Navi! ❤️🎂"
   },
   {
     id: 'letter-p1-el',
@@ -475,9 +475,11 @@ const LETTER_SECTIONS = [
   },
   {
     id: 'letter-closing-el',
-    text: "Happy birthday, my love. I love you more than you know. 🫶🏻🎂❤️"
+    text: "Happy birthday, Navi! Lots of love from your brother. ❤️🎉"
   }
 ];
+
+  
 
 let letterTypewriterTimer = null;
 let isLetterTyping = false;
